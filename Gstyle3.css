@@ -7,13 +7,15 @@ body{
     padding: 0;
     list-style: none;
     text-decoration: none;
+    
 }
 .sidebar{
     position: fixed;
     left: -250px;
     width: 250px;
     height: 100%;
-    background: #042331;
+    background: url(HackerNews1.jpg) no-repeat;
+    background-size: 100% 100%;
 }
 
 .sidebar header{
@@ -21,7 +23,8 @@ body{
     color: white;
     text-align : center;
     line-height: 70px;
-    background: #063146;
+    background: url(HackerNews1.jpg) no-repeat;
+    background-size: 100% 10%;
     user-select: none;
 }
 
@@ -95,7 +98,6 @@ section{
     height: 100vh;
     transition: all .5s;
 }
-
 .serachbox{
 
 font-family: sans-serif;
@@ -111,6 +113,12 @@ input{
     width: 300px;
     border-radius: 50px;
     padding: 0px 10px;
+}
+.website_name{
+    height: 10%;
+    width: 35%;
+    margin-left:64%;
+    
 }
 
 
