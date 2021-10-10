@@ -41,7 +41,11 @@ body{
     border-bottom: 1px solid black;
     transition: all .5s ease;
 }
-
+.sidebar ul a b{
+    color:green;
+    font-weight:700;
+    padding-left:45px;
+    }
 ul li:hover a{
     padding-left: 50px;
 }
