@@ -92,9 +92,9 @@ label #cancel{
     left:195px;
    
 }
-#check:checked ~ section{
-    margin-left: 250px;
-}
+//#check:checked ~ section{
+  //  margin-left: 250px;
+//}
 section{
     background:url(HackerNews4.jpg) no-repeat;
     background-position: center;
