@@ -125,4 +125,28 @@ input{
     
 }
 
+form.search input[type=search]{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid gray;
+    float:left;
+    width:400px;
+    background:#f1f1f1;
+    margin-left:270px;
+    margin-top: -39px;
+    
+}
+form.search button{
+    margin-top:-39px;
+    float:left;
+    width: 80px;
+    padding :10px;
+    background: #05193d;
+    color: white;
+    font-size:17px;
+    border: 1px solid grey;
+    cursor:pointer;
+    border-left: none;
+
+}
 
