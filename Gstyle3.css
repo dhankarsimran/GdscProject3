@@ -92,9 +92,7 @@ label #cancel{
     left:195px;
    
 }
-//#check:checked ~ section{
-  //  margin-left: 250px;
-//}
+
 body{
     background:url(HackerNews4.jpg);
     background-position: center;
@@ -115,10 +113,6 @@ body{
     width: 35%;
     margin-left:64%;
     
-}
-
-.searchbox {
-    margin-top: -50px;
 }
 
 form.search input[type=search]{
