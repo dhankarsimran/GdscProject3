@@ -95,8 +95,8 @@ label #cancel{
 //#check:checked ~ section{
   //  margin-left: 250px;
 //}
-section{
-    background:url(HackerNews4.jpg) no-repeat;
+body{
+    background:url(HackerNews4.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -104,7 +104,7 @@ section{
 }
 
 #input{
-    border: 3px solid #32e17c;
+    border: 3px solid #05193d;
     height: 40px;
     width: 300px;
     
@@ -115,6 +115,10 @@ section{
     width: 35%;
     margin-left:64%;
     
+}
+
+.searchbox {
+    margin-top: -50px;
 }
 
 form.search input[type=search]{
@@ -129,9 +133,11 @@ form.search input[type=search]{
     
 }
 form.search button{
-    margin-top:-39px;
-    float:left;
-    width: 80px;
+    margin-top: -39px;
+    margin-left: 10px;
+    float: left;
+    width: 50px;
+    height: 41px;
     padding :10px;
     background: #05193d;
     color: white;
@@ -141,4 +147,52 @@ form.search button{
     border-left: none;
 
 }
+
+.card-img-top {
+    height: 170px;
+    background-size: cover;
+   
+}
+
+.card-deck{
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card:hover{
+background-color: #05296d;
+color: white;
+cursor: pointer;
+transform: scale(1.1);
+transition: all 0.1s ease;
+}
+
+.carouselExampleIndicators {
+    margin-top: 1000px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.carousel {
+    margin-left: 230px;
+}
+
+.card{
+    
+    display: flex;
+
+}
+
+
+
+/* #32e17c */
+
+
 
