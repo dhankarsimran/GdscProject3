@@ -114,6 +114,9 @@ body{
     margin-left:64%;
     
 }
+.searchbox{
+    margin-top:-50px;
+}
 form.search input[type=search]{
     padding: 10px;
     font-size: 17px;
